@@ -15,7 +15,7 @@ class ll{
 };
 
 void ll::push(int x){
-        struct Node* new_node = new Node();
+        struct Node* new_node = new Node;
         new_node->data = x;
         if(new_node == NULL)
 	{
